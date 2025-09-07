@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -23,7 +24,7 @@ export default {
         // Neutral
 
         // Dark Theme
-        BackgruondGray: "hsl(230, 17%, 14%)",
+        BackgroundGray: "hsl(230, 17%, 14%)",
         TopBgGray: "hsl(232, 19%, 15%)",
         CardBgNavy: "hsl(228, 28%, 20%)",
         Gray400: "hsl(230, 22%, 74%)",
