@@ -1,12 +1,54 @@
-# React + Vite
+# Social Media Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a solution to the [Frontend Mentor Social Media Dashboard challenge](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Social Media Dashboard displays key statistics for multiple social media platforms (Facebook, Twitter, Instagram, YouTube) and includes a theme switcher for light/dark mode. It is built with React and styled using Tailwind CSS.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive dashboard layout
+- Main statistics cards for each platform
+- Overview section with daily stats
+- Theme toggle (light/dark)
+- Modern UI with Tailwind CSS
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MIKOXO/Social-Media-Dashboard.git
+   cd Social-Media-Dashboard
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Folder Structure
+
+- `src/components/` - Reusable UI components
+- `src/pages/` - Page components
+- `src/hooks/` - Custom React hooks
+- `src/assets/` - SVG icons and images
+
+## Customization
+
+You can easily add more platforms or stats by editing the data in the relevant components.
+
+## Credits
+
+- Challenge by [Frontend Mentor](https://www.frontendmentor.io/)
+- Coded by Mikiyas
