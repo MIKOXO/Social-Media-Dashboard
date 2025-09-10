@@ -9,7 +9,7 @@ import DownArrow from "../assets/icon-down.svg";
 
 const MainStatCards = () => {
   return (
-    <section className="mx-auto container px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max:sm:space-y-3 gap-7 my-4">
+    <section className="mx-auto container px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-md:space-y-2 gap-7 my-4">
       <MainStatCard
         borderColor={"border-FacebookBlue"}
         platform={FacebookImg}
